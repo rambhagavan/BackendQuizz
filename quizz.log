@@ -1,0 +1,1140 @@
+2024-12-04 01:12:42 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 18214 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-04 01:12:42 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-04 01:12:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04 01:12:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-12-04 01:12:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-04 01:12:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 01:12:43 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-04 01:12:43 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-04 01:12:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-04 01:12:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 801 ms
+2024-12-04 01:12:43 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-04 01:12:43 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-04 01:12:43 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-04 01:12:43 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-05 23:00:23 [main] INFO  QuizzappApplication.class -
+				main function is running
+2024-12-05 23:00:24 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 13970 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-05 23:00:24 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-05 23:00:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05 23:00:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2024-12-05 23:00:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-05 23:00:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-05 23:00:25 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-05 23:00:25 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-05 23:00:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-05 23:00:25 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1196 ms
+2024-12-05 23:00:25 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-05 23:00:25 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-05 23:00:25 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-05 23:00:25 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-05 23:09:28 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 14411 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-05 23:09:28 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-05 23:09:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05 23:09:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2024-12-05 23:09:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-05 23:09:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-05 23:09:29 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-05 23:09:29 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-05 23:09:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-05 23:09:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 837 ms
+2024-12-05 23:09:29 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-05 23:09:29 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-05 23:09:29 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-05 23:09:29 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-05 23:21:39 [main] ERROR QuizzappApplication.class -
+				An error occurred while performing the task: / by zero
+java.lang.ArithmeticException: / by zero
+	at com.quizzapp.demo.QuizzappApplication.main(QuizzappApplication.java:16)
+2024-12-05 23:21:39 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 15016 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-05 23:21:39 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-05 23:21:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05 23:21:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2024-12-05 23:21:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-05 23:21:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-05 23:21:40 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-05 23:21:40 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-05 23:21:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-05 23:21:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 848 ms
+2024-12-05 23:21:40 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-05 23:21:40 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-05 23:21:40 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-05 23:21:40 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-05 23:23:06 [main] ERROR QuizzappApplication.class -
+				eoror
+2024-12-05 23:23:06 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 15244 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-05 23:23:06 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-05 23:23:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-05 23:23:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2024-12-05 23:23:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-05 23:23:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-05 23:23:07 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-05 23:23:07 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-05 23:23:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-05 23:23:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 937 ms
+2024-12-05 23:23:07 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-05 23:23:07 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-05 23:23:07 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-05 23:23:07 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-06 00:19:15 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 8369 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-06 00:19:15 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-06 00:19:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-06 00:19:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2024-12-06 00:19:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-06 00:19:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-06 00:19:16 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-06 00:19:16 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-06 00:19:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-06 00:19:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 908 ms
+2024-12-06 00:19:16 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-06 00:19:16 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-06 00:19:16 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-06 00:19:16 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-17 22:02:12 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 13872 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:02:12 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-17 22:02:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:02:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:02:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-17 22:02:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:02:13 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:02:13 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:02:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:02:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1036 ms
+2024-12-17 22:02:13 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-17 22:02:13 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-17 22:02:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-17 22:02:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-17 22:03:09 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 14025 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:03:09 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-17 22:03:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:03:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:03:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-17 22:03:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:03:10 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:03:10 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:03:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:03:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 900 ms
+2024-12-17 22:03:10 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-17 22:03:10 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-17 22:03:10 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-17 22:03:10 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-17 22:04:22 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 14125 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:04:22 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-17 22:04:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:04:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:04:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-17 22:04:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:04:23 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:04:23 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:04:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:04:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 848 ms
+2024-12-17 22:04:23 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-17 22:04:23 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-17 22:04:23 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-17 22:04:23 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-17 22:07:52 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 14746 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:07:52 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-17 22:07:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:07:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:07:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-17 22:07:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:07:53 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:07:53 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:07:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:07:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1059 ms
+2024-12-17 22:07:53 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-17 22:07:53 [main] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-12-17 22:07:53 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-17 22:07:53 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-17 22:12:28 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 15560 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:12:28 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-17 22:12:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:12:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:12:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-17 22:12:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:12:29 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:12:29 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:12:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:12:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 817 ms
+2024-12-17 22:12:29 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:12:29 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:12:29 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:12:29 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:12:29 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:12:29 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76b5a559
+2024-12-17 22:12:29 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:12:30 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:12:30 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:12:31 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:12:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:12:31 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-17 22:12:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:12:31 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-12-17 22:12:31 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-12-17 22:12:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-17 22:12:31 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-17 22:14:24 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 15714 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:14:24 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-12-17 22:14:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:14:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:14:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-12-17 22:14:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:14:25 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:14:25 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:14:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:14:25 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 941 ms
+2024-12-17 22:14:26 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:14:26 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:14:26 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:14:26 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:14:26 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:14:26 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@261275ae
+2024-12-17 22:14:26 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:14:27 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:14:27 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:14:27 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:14:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+2024-12-17 22:14:27 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-17 22:14:27 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:14:27 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-12-17 22:14:27 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-12-17 22:14:27 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-17 22:14:27 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-17 22:15:39 [main] ERROR o.s.boot.SpringApplication -
+				Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 2, column 1:
+    	application:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:445)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:669)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:359)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:344)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:162)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:515)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:203)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:169)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:96)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:132)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:121)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processWithProfiles(ConfigDataEnvironment.java:316)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:237)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.quizzapp.demo.QuizzappApplication.main(QuizzappApplication.java:11)
+2024-12-17 22:16:55 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 15930 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:16:55 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:16:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:16:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:16:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:16:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:16:56 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:16:56 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:16:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:16:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 826 ms
+2024-12-17 22:16:56 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:16:56 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:16:56 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:16:57 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:16:57 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:16:57 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74cd798f
+2024-12-17 22:16:57 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:16:57 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:16:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:16:58 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:16:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:16:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:16:58 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 3.004 seconds (process running for 3.366)
+2024-12-17 22:23:22 [http-nio-6000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17 22:23:22 [http-nio-6000-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-12-17 22:23:22 [http-nio-6000-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2 ms
+2024-12-17 22:27:09 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:27:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-12-17 22:27:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-12-17 22:28:53 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 18945 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:28:53 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:28:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:28:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:28:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:28:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:28:54 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:28:54 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:28:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:28:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1019 ms
+2024-12-17 22:28:54 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:28:54 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:28:54 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:28:54 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:28:54 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:28:54 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60ed0b9d
+2024-12-17 22:28:54 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:28:55 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:28:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:28:56 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:28:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:28:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:28:56 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 3.632 seconds (process running for 4.093)
+2024-12-17 22:29:14 [http-nio-6000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17 22:29:14 [http-nio-6000-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-12-17 22:29:14 [http-nio-6000-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2 ms
+2024-12-17 22:30:02 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:30:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-12-17 22:30:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-12-17 22:30:07 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 19158 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:30:07 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:30:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:30:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:30:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:30:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:30:08 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:30:08 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:30:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:30:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1238 ms
+2024-12-17 22:30:08 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:30:08 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:30:08 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:30:08 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:30:08 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:30:09 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@466fedfa
+2024-12-17 22:30:09 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:30:10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:30:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:30:10 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:30:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:30:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:30:10 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 4.175 seconds (process running for 5.006)
+2024-12-17 22:34:45 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 19794 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:34:45 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:34:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:34:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:34:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:34:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:34:46 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:34:46 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:34:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:34:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1185 ms
+2024-12-17 22:34:46 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:34:46 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:34:46 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:34:47 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:34:47 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:34:47 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e98b933
+2024-12-17 22:34:47 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:34:48 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:34:48 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:34:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:34:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:34:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:34:49 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 4.39 seconds (process running for 5.096)
+2024-12-17 22:35:27 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 19886 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:35:27 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:35:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:35:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 309 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:35:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:35:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:35:55 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:35:55 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:35:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:35:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 28817 ms
+2024-12-17 22:35:57 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:35:58 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:35:58 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:36:00 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:36:00 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:36:02 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@782e6b40
+2024-12-17 22:36:02 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:36:07 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:36:07 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:36:10 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:36:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:36:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:36:14 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 53.182 seconds (process running for 70.885)
+2024-12-17 22:44:34 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 20708 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:44:34 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:44:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:44:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:44:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:44:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:44:35 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:44:35 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:44:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:44:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1023 ms
+2024-12-17 22:44:35 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:44:35 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:44:35 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:44:35 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:44:35 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:44:36 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49986178
+2024-12-17 22:44:36 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:44:36 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:44:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:44:37 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:44:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:44:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:44:37 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 3.437 seconds (process running for 3.878)
+2024-12-17 22:44:40 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:44:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-12-17 22:44:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-12-17 22:44:55 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 20801 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:44:55 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:44:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:44:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:45:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:45:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:45:02 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:45:02 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:45:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:45:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 6561 ms
+2024-12-17 22:45:02 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:45:02 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:45:02 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:45:02 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:45:02 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:45:03 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3feebf9c
+2024-12-17 22:45:03 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:45:03 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:45:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:45:04 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:47:29 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 21117 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:47:29 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:47:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:47:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:47:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:47:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:47:30 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:47:30 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:47:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:47:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1114 ms
+2024-12-17 22:47:30 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:47:30 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:47:30 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:47:31 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:47:31 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:47:31 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34beadce
+2024-12-17 22:47:31 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:47:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:47:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:47:32 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:47:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:47:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:47:32 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 3.594 seconds (process running for 3.99)
+2024-12-17 22:48:05 [http-nio-6000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17 22:48:05 [http-nio-6000-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-12-17 22:48:05 [http-nio-6000-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 1 ms
+2024-12-17 22:50:40 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:50:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2024-12-17 22:50:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2024-12-17 22:50:45 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Starting QuizzappApplication using Java 17.0.13 with PID 21481 (/home/rambhagavan/Downloads/backendquizz/demo/target/classes started by rambhagavan in /home/rambhagavan/Downloads/backendquizz/demo)
+2024-12-17 22:50:45 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				The following 1 profile is active: "dev"
+2024-12-17 22:50:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-17 22:50:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2024-12-17 22:50:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 6000 (http)
+2024-12-17 22:50:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:50:46 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-12-17 22:50:46 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-17 22:50:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-12-17 22:50:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1302 ms
+2024-12-17 22:50:47 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-17 22:50:47 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-17 22:50:47 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-12-17 22:50:47 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-17 22:50:47 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-12-17 22:50:47 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@528e5e38
+2024-12-17 22:50:47 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-12-17 22:50:48 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-17 22:50:48 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-17 22:50:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-17 22:50:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-6000"]
+2024-12-17 22:50:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 6000 (http) with context path '/'
+2024-12-17 22:50:49 [main] INFO  c.quizzapp.demo.QuizzappApplication -
+				Started QuizzappApplication in 4.353 seconds (process running for 5.01)
+2024-12-17 22:51:02 [http-nio-6000-exec-20] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17 22:51:02 [http-nio-6000-exec-20] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-12-17 22:51:02 [http-nio-6000-exec-20] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 1 ms
